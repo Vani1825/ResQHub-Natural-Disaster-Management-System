@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans bg-gradient-to-br from-primary-darker via-[#1c1b2a] to-[#241b2f] text-white;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-lg font-semibold transition-all duration-300 inline-block;
+  }
+  
+  .btn-primary {
+    @apply bg-accent-red hover:bg-red-600 text-white;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-white hover:bg-white hover:text-primary-dark;
+  }
+}
