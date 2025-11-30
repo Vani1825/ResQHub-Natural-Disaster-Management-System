@@ -1,5 +1,6 @@
 # ResQHub - Disaster Management System (React + Tailwind CSS)
-
+link for site :
+https://singular-sundae-0a0c74.netlify.app/
 A comprehensive disaster management platform built with React and Tailwind CSS. This application helps users stay informed about disasters, find emergency shelters, access emergency kits, and make donations for disaster relief.
 
 ## 🚀 Features
